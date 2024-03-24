@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+}
+
+h1 {
+    color: cornflowerblue;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+p {
+    color: black;
+    text-align: center;
+}
+
+body {
+    padding: 0px;
+    margin-top: 50px;
+}
+
+.card {
+    display: inline-block;
+    margin: 50px;
+    border: 2px solid cornflowerblue;
+    width: 240px;
+}
+
+#money {
+    text-decoration: solid;
+    color: royalblue;
+}
+
+.bloco {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.card-descrição {
+    padding: 30px 10px;
+}
+
+.image {
+    height: 350px;
+    background-size: cover;
+}
+
+.card-1 .image {
+    background-image: url("../img/animal10.jpg");
+}
+
+.card-2 .image {
+    background-image: url("../img/animal11.jpg");
+}
+
+.card-3 .image {
+    background-image: url("../img/animal12.jpg");
+}
+
+.card-4 .image {
+    background-image: url("../img/animal13.jpg");
+}
+
+.card-5 .image {
+    background-image: url("../img/animal14.jpg");
+}
+
+.card-6 .image {
+    background-image: url("../img/animal15.jpg");
+}
+
+.button {
+    display: block;
+    background-color: cornflowerblue;
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid transparent;
+    font-weight: bold;
+    transition: .5s;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #FFF;
+    color: cornflowerblue;
+    border-color: cornflowerblue;
+}
